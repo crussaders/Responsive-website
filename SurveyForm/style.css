@@ -1,0 +1,80 @@
+body {
+    background-color: cyan;
+    background-attachment: fixed;
+}
+
+#title {
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#description {
+    text-align: center;
+    font-size: 3vw;
+    font-family: fantasy;
+}
+
+#survey-form {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    padding: 20px;
+    }
+
+label{
+    padding: 12px;
+    display: block;
+}
+
+#name-label, #email-label, #number-label {
+    padding: 12px;
+    display: inline-block;
+}
+
+#name, #email, #number {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+    }
+
+#dropdown {
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid blueviolet;
+    box-sizing: border-box;
+}
+
+#radio_button {
+        display:block;
+        cursor: pointer;
+        }
+
+#improved {
+    display: block;
+    cursor: pointer;
+}
+
+#review {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#submit {
+    width: 100%;
+    background-color: chartreuse;
+    padding: 12px;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
